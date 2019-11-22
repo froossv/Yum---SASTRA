@@ -18,7 +18,21 @@
                 <h1 class="title">A la Carte Menu</h1>
             </div>
             <p class="description">The App connects Catering and On-Campus students enabling them to order food, collect feedback and more.<p>
-
+            <div class="burgerdiv">
+                <h1 class="title" style="color:black;font-weight:normal;margin-top:15px;margin-bottom:35px;">"The Full Stack"</h1>
+                <div class="burger">
+                  <img class="front" onmouseover="document.getElementById('frontd').style.display = 'block';" onmouseout="document.getElementById('frontd').style.display = 'none';" src="./img/1.png">
+                  <img class="api" onmouseover="document.getElementById('apid').style.display = 'block';" onmouseout="document.getElementById('apid').style.display = 'none';" src="./img/2.png">
+                  <img class="db" onmouseover="document.getElementById('dbd').style.display = 'block';" onmouseout="document.getElementById('dbd').style.display = 'none';" src="./img/3.png">
+                  <img class="back" onmouseover="document.getElementById('backd').style.display = 'block';" onmouseout="document.getElementById('backd').style.display = 'none';" src="./img/4.png">
+                  <img class="host" onmouseover="document.getElementById('hostd').style.display = 'block';" onmouseout="document.getElementById('hostd').style.display = 'none';" src="./img/5.png">
+                </div>
+                <p class="explain" id="frontd" style="display:none;margin-bottom:20px;">The Frontend for the Client Side App and the Admin Page is developed using AngularJS with Ionic Framework.</p>
+                <p class="explain" id="apid" style="display:none;margin-bottom:20px;">The App uses REST API with JSON Formatting to communicate with the Servers.</p>
+                <p class="explain" id="dbd" style="display:none;margin-bottom:20px;">PostgreSQL Database is used to store data with pg_partman and pg_cron extensions.</p>
+                <p class="explain" id="backd" style="display:none;margin-bottom:20px;">The Backend Server is written in Golang with the gorilla mux support.</p>
+                <p class="explain" id="hostd" style="display:none;margin-bottom:20px;">The Entire stack is hosted on Salesforce's Heroku.</p>
+            </div>
             <div class="scrshot">
                 <img src="./img/login.png" class="scr">
                 <img src="./img/home.png" class="scr">
