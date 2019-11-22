@@ -1,20 +1,25 @@
 .container{
-    margin-left: auto;
-    margin-right: auto;
+    text-align: center;
 }
 
 .header{
-    background-image: url("../img/header.jpeg");
-    background-repeat: no-repeat;
-    height: 50%;
+    height: 300px;
     display: flex;
     flex-direction: column;
     user-select: none;
     justify-content: center;
 }
 
+.bg{
+    background: rgba(0, 0, 0, 0) url('../img/header.jpeg') no-repeat center center / cover;
+    z-index: -1;
+    position: absolute;
+    left:0;
+    right: 0;
+    height: 300px;
+}
+
 .title{
-    text-align: center;
     color: yellow;
     font-weight: bold;
     -webkit-text-stroke: 1.5px black;
@@ -26,7 +31,6 @@
     margin-top: 40px;
     margin-bottom: 40px;
     font-size: 35px;
-    text-align: center;
 }
 
 .scrshot{
@@ -50,7 +54,6 @@
 .devtitle{
     font-family: 'Share Tech Mono', monospace;
     font-size: 20px;
-    text-align: center;
     font-weight: bold;
 }
 
