@@ -11,7 +11,7 @@
 }
 
 .bg{
-    background: rgba(0, 0, 0, 0) url('../img/header.jpeg') no-repeat center center / cover;
+    background: linear-gradient(to bottom, transparent,transparent,white),url('../img/header.jpeg') no-repeat center center / cover;
     z-index: -1;
     position: absolute;
     left:0;
@@ -61,4 +61,6 @@
     margin-top: 10px;
     color: black;
     font-weight: normal;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
