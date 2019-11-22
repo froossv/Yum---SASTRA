@@ -10,6 +10,24 @@
     justify-content: center;
 }
 
+.expand{
+    transition-duration: 150ms;
+}
+
+.icon{
+    overflow: hidden;
+    transition-duration: 300ms;
+
+}
+.icon:hover{
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+}
+
+.expand:hover{
+    transform: scale(1.2);
+}
+
 .bg{
     background: linear-gradient(to bottom, transparent,transparent,white),url('../img/header.jpeg') no-repeat center center / cover;
     z-index: -1;
@@ -44,11 +62,22 @@
     flex: 33%;
     max-width: 33%;
     padding: 0 10px;
+    transition-duration: 150ms;
+}
+
+.scr:hover{
+    z-index: 100;
+    transform: scale(1.3);
 }
 
 .dp{
     border-radius: 100px;
     height: 300px;
+    transition-duration: 150ms;
+}
+
+.dp:hover{
+    border-radius: 0px;
 }
 
 .devtitle{
